@@ -111,3 +111,9 @@ a{
 .tamanio-elemento-nav{
 	font-size: 32px;
 }
+
+hr{	
+	border: 2px solid gray;
+    width: 71px;
+    margin-left: 33em;
+}
