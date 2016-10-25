@@ -108,12 +108,46 @@ a{
 	color: black;
 }
 
+hr{
+	border: 2px solid black;
+    width: 71px;
+    margin-top: 5px;
+    margin-top: 5px;
+}
+
 .tamanio-elemento-nav{
 	font-size: 32px;
 }
 
-hr{	
+.hr-center{	
 	border: 2px solid gray;
     width: 71px;
     margin-left: 33em;
+}
+#bf-grupal{
+	background-image: url("../img/grupal.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+  	overflow: overlay;	
+}
+
+.relativo{
+	position: relative;
+}
+
+.absoluto{
+	position: absolute;
+	top: 200px;
+	right: 95px;
+	color: white;
+}
+
+.coders{
+	box-shadow: 2px 2px 5px #999;
+}
+
+.img-coders-detail{
+	border-radius: 50%;
 }
