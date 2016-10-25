@@ -12,7 +12,13 @@
   padding-right: 15px;
   padding-left: 15px;
 }
-
+.container-max{
+  margin: 20px auto 0 auto;
+  max-width: 1280px;
+  width: 70%;	
+  padding-right: 15px;
+  padding-left: 15px;	
+}
 .row:before, .row:after{
 	content: " ";
 	display: table;
@@ -150,4 +156,43 @@ hr{
 
 .img-coders-detail{
 	border-radius: 50%;
+	padding-top: 30px;
+}
+
+.border-container{
+	border:2px solid gray;
+}
+
+.tamanio-parrafo-detail{
+	font-size: 20px;
+}
+
+.bg-habilidades{
+	font-weight: bold;
+	color: white;
+	background-color: gray;
+	padding: 20px;
+	font-size: 20px;
+}
+
+#html{
+	width: 100%;
+}
+
+#css{
+	width: 80%;
+}
+
+#js{
+	width: 50%;
+}
+
+.img-portafolio{
+	width: 100%;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
